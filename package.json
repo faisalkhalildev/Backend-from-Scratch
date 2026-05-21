@@ -1,0 +1,24 @@
+{
+  "name": "backend-from-scritch",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000-\u0000f\u0000r\u0000o\u0000m\u0000-\u0000S\u0000c\u0000r\u0000a\u0000t\u0000c\u0000h\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/faisalkhalildev/Backend-from-Scratch#readme",
+  "bugs": {
+    "url": "https://github.com/faisalkhalildev/Backend-from-Scratch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalkhalildev/Backend-from-Scratch.git"
+  },
+  "license": "ISC",
+  "author": "shah faisal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
