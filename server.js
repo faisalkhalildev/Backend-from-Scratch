@@ -1,13 +1,9 @@
 const express = require("express")
 const app = express()
+const userRouter = require("./routes/auth.routes")
+app.use(express.json())
 
-app.get("/" , (req , res) => {
-  res.send({
-    id:1,
-    name:"shah",
-    isSucess: true
-  })
-})
+app.use("/" ,userRouter )
 
 const  PORT = 5000;
 app.listen(PORT , () => {
