@@ -5,5 +5,5 @@ let users = [
 ];
 
 exports.addUser = (req , res) => {
-    const newUser = users;
+    res.send(users)
 }
