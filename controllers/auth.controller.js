@@ -5,5 +5,13 @@ let users = [
 ];
 
 exports.addUser = (req , res) => {
+    const addUser = {
+        id: users.length + 1,
+        email: req.body.email,
+        name: req.body.name
+    }
+    console.log(req.body)
+    users.push(addUser)
     res.send(users)
+    return;
 }
